@@ -1,0 +1,20 @@
+# OS metadata
+.DS_Store
+Thumbs.db
+
+# Dependencies
+node_modules/
+bun.lock
+bun.lockb
+
+# Build outputs
+desktop/build/bin/
+desktop/frontend/dist/
+desktop/desktop
+*.exe
+*.app
+
+# Logs and local databases
+*.log
+*.db
+.pos-desktop/

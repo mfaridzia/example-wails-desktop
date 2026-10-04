@@ -1,0 +1,10 @@
+{
+  "name": "pos-desktop-monorepo",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "dev:server": "cd server && bun run index.ts",
+    "dev:desktop": "cd desktop && export PATH=\"$PATH:$HOME/go/bin:/usr/local/go/bin\" && wails dev",
+    "build:desktop": "cd desktop && export PATH=\"$PATH:$HOME/go/bin:/usr/local/go/bin\" && wails build"
+  }
+}
